@@ -11,8 +11,8 @@ class Categoria(models.Model):
 class Receita(models.Model):
 
     nivel = [
-         ('facil', 'facil'),
-         ('medio', 'medio'),
+         ('fácil', 'fácil'),
+         ('moderado', 'moderado'),
          ('dificil', 'dificil')
     ]
 
